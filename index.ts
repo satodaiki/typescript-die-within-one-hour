@@ -5,6 +5,7 @@
 import Test1 from "./test1";
 import Test2 from "./test2";
 import Test3 from "./test3";
+import Test4 from "./test4";
 
 // テスト1の確認
 let test1: Test1 = new Test1([1,2,3]);
@@ -17,4 +18,7 @@ console.log('test1.test1Recursive(): ' + test1.test1Recursive());
 console.log('test2.arrayJoinStr(): '+ Test2.arrayJoinStr([1,2,3], ['a', 'b']));
 
 // テスト3の確認
-console.log('test3.calcFibonacci(100)' + Test3.calcFibonacci(100));
+console.log('test3.calcFibonacci(100): ' + Test3.calcFibonacci(100));
+
+// テスト4の確認
+console.log('test4.calcListMaxNum([50, 2, 1, 9]): ' + Test4.calcListMaxNum([50, 2, 1, 9]));
